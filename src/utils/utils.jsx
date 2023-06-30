@@ -1,1 +1,1 @@
-export const apiDomain = 'blogifysam.azurewebsites.net'
+export const apiDomain = 'https://blogifysam.azurewebsites.net'
