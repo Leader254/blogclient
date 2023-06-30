@@ -1,1 +1,1 @@
-export const apiDomain = 'http://localhost:4000'
+export const apiDomain = 'blogifysam.azurewebsites.net/'
