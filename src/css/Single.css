@@ -38,6 +38,7 @@
   /* height: 300px; */
   object-fit: cover;
 }
+
 .content {
   flex: 3;
   display: flex;
@@ -49,10 +50,11 @@
   margin-bottom: 0px;
   color: #333;
 }
+
 .content p {
   font-size: 15px;
-    text-align: justify;
-    line-height: 25px;
+  text-align: justify;
+  line-height: 25px;
 }
 
 .post>.img {
@@ -74,9 +76,9 @@
 
 .single .post {
   margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    /* gap: 10px; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
 }
 
 
@@ -107,10 +109,12 @@
   background-color: #b9e7e7;
   color: black;
 }
-.menu{
+
+.menu {
   margin-right: 20px;
   flex: 2;
 }
+
 /* Media query for menu below 768px */
 @media (max-width: 768px) {
   .single {
@@ -119,13 +123,14 @@
     padding: 30px;
     flex-direction: column;
   }
+
   .single .post {
-    /* margin-left: 40px; */
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
-  
+
 
   .single>.content {
     flex: 1;
@@ -137,7 +142,7 @@
     width: 100%;
   }
 
-  .post >.img {
+  .post>.img {
     flex: 1;
   }
 

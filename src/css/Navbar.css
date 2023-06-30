@@ -23,6 +23,7 @@ button {
     color: inherit;
   }
   .navbar .container {
+    height: 30px;
     background-color: #fff1b9;
     /* margin-top: 30px; */
     display: flex;
