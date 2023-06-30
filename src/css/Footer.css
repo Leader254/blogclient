@@ -18,4 +18,13 @@ footer {
     footer{
       display: flex;
     } 
+    footer > img{
+      display: none;
+    }
+    footer > .social_icons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
   }
