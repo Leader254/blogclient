@@ -118,6 +118,13 @@
     padding: 30px;
     flex-direction: column;
   }
+  .single .post {
+    /* margin-left: 40px; */
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  
 
   .single>.content {
     flex: 1;
