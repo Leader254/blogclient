@@ -37,7 +37,8 @@ const Register = () => {
   const onSubmitHandler = async (data) => {
     setLoading(true);
     try {
-      await axios.post(`${apiDomain}/api/auth/register`, data);
+     let result1 = await axios.post(`${apiDomain}/api/auth/register`, data);
+     console.log(result1);
       toast.success("Congratulations! Please login to your account now", {
         position: toast.POSITION.TOP_CENTER,
         autoclose: 1000
