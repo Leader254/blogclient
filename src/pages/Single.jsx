@@ -96,7 +96,9 @@ const Single = () => {
     return '';
   };
 
-  const isPostOwner = currentUser && currentUser.id === post.uid;
+  // const isPostOwner = currentUser && currentUser.id === post.uid;
+  const isPostOwner = currentUser && currentUser.id === post[0]?.uid;
+
 
   return (
     <div className="single">
