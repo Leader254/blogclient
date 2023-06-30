@@ -4,7 +4,7 @@
 }
 
 .posts {
-  margin-top: 60px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -40,7 +40,7 @@
 }
 
 .content h1 {
-  font-size: 48px;
+  font-size: 35px;
   margin-bottom: 0px;
 }
 
@@ -67,6 +67,12 @@ button:hover {
 .link {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 768px) {
+  .posts{
+    
+  }
 }
 
 @media (max-width: 1200px) {

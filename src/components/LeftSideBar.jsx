@@ -1,8 +1,8 @@
 import "../css/LeftSideBar.css";
 import { IoCarSportSharp } from "react-icons/io5"; // Cars
-import { MdScience } from "react-icons/md"; // Science
+import { MdScience, MdSportsVolleyball, MdMoreHoriz } from "react-icons/md"; // Science
 import { GrTechnology } from "react-icons/gr"; // Technology
-import { BiCodeAlt, BiSolidPlanet, BiCameraMovie } from "react-icons/bi"; // Programming
+import { BiCodeAlt, BiSolidPlanet } from "react-icons/bi"; // Programming
 
 const LeftSidebar = () => {
   return (
@@ -22,13 +22,10 @@ const LeftSidebar = () => {
                 <h6><GrTechnology style={{ color: "red", fontSize: "30px" }} />TECHNOLOGY</h6>
               </span>
               <span className="link2">
-                <h6><BiCodeAlt style={{ color: "red", fontSize: "30px" }} />PROGRAMMING</h6>
+                <h6><MdSportsVolleyball style={{ color: "black", fontSize: "30px" }} />SPORTS</h6>
               </span>
               <span className="link2">
-                <h6><BiSolidPlanet style={{ color: "black", fontSize: "30px" }} />TRAVEL</h6>
-              </span>
-              <span className="link2">
-                <h6><BiCameraMovie style={{ color: "black", fontSize: "30px" }} /> Movies</h6>
+                <h6><MdMoreHoriz style={{ color: "red", fontSize: "30px" }} />..MORE</h6>
               </span>
             </li>
           </ul>

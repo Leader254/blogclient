@@ -43,7 +43,6 @@ const Home = () => {
           <div className="post" key={post.id}>
             <div className="img">
               <img src={post.img} alt="" className="postImg" />
-              <p style={{textDecoration: "underline", color: "blue",fontSize: "20px", textUnderlineOffset: "2px"}}><em>Tags: {post.category}</em></p>
             </div>
             <div className="content">
               <Link to={`/post/${post.id}`} className='link'>
@@ -53,6 +52,7 @@ const Home = () => {
               <Link to={`/post/${post.id}`} className='link'>
                 <button>Read More</button>
               </Link>
+              <p style={{textDecoration: "underline", color: "blue",fontSize: "20px", textUnderlineOffset: "2px"}}><em>Tags: {post.category}</em></p>
             </div>
           </div>
         ))}

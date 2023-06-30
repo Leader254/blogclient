@@ -15,7 +15,7 @@ button {
     margin: 0 1rem;
 }
 .container {
-    padding: 0 20px;
+    padding: 20px 20px;
   }
   
   .link {
@@ -29,7 +29,7 @@ button {
     font-weight: 700;
     align-items: center;
     justify-content: space-between;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     border-bottom: 2px solid;
     border-radius: 4px;
   }
@@ -165,7 +165,7 @@ span > img {
   
     .dropdown-menu {
       top: 48px;
-      right: 0;
+      /* right: 0; */
       left: auto;
     }
     .navbar .container
@@ -174,7 +174,7 @@ span > img {
     display: flex;
     font-weight: 700;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     }
   }
   
