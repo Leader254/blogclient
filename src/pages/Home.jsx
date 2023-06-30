@@ -52,7 +52,7 @@ const Home = () => {
               <Link to={`/post/${post.id}`} className='link'>
                 <button>Read More</button>
               </Link>
-              <p style={{textDecoration: "underline", color: "blue",fontSize: "20px", textUnderlineOffset: "2px"}}><em>Tags: {post.category}</em></p>
+              
             </div>
           </div>
         ))}
