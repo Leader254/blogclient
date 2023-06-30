@@ -3,9 +3,12 @@ import { createContext } from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { apiDomain } from '../utils/utils';
+import { useNavigate } from 'react-router-dom';
 
 
 export const AuthContext = createContext();
+
+const navigate = useNavigate();
 
 export const AuthContextProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(
@@ -21,6 +24,7 @@ export const AuthContextProvider = ({ children }) => {
   const logout = async () => {
     await axios.post(`${apiDomain}/api/auth/logout`);
     setCurrentUser(null);
+    navigate('/');
   };
   useEffect(() => {
     localStorage.setItem('user', JSON.stringify(currentUser));
